@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Tiancan Xia - M.Eng. Student at Southeast University"
+title: "Tiancan Xia"
 author_profile: true
 redirect_from: 
   - /about/
