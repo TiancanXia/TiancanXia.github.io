@@ -1,152 +1,234 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Tiancan Xia",
+    "email": "tiancanxia@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://tiancanxia.github.io",
+    "summary": "M.Eng. student at Southeast University (SEU), Nanjing, China. Research focuses on Score-based Generative Models for Inverse Problems, Bayesian Inference, and Variational Methods. Expected graduation: June 2027.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Nanjing",
+      "countryCode": "CN",
+      "region": "Jiangsu"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "Tiancan Xia",
+        "url": "https://scholar.google.com/citations?user=u1tYP8wAAAAJ&hl=zh-CN&oi=ao"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "TiancanXia",
+        "url": "https://github.com/TiancanXia"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "tiancan-xia-917aa53a6",
+        "url": "https://www.linkedin.com/in/tiancan-xia-917aa53a6/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Lab of Efficient Architectures for Digital-communication and Signal-processing (LEADS)",
+      "position": "Research Assistant: Bridging Diffusion Priors and Message Passing",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "location": "Nanjing, China",
+      "summary": "Supervisors: Prof. Xiaosi Tan, Prof. Chuan Zhang. Research on connecting diffusion priors and message passing algorithms for inverse problems.",
+      "highlights": [
+        "Proposed a message passing-based diffusion posterior sampling framework for compressive image recovery",
+        "Formulated posterior score estimation as a variational inference problem using generalized Tweedie formula",
+        "Integrated diffusion timestep states as auxiliary input vectors in message passing iterations to represent evolving generative priors",
+        "Designed a unified framework compatible with multiple message passing variants and diffusion samplers",
+        "Derived closed-form posterior mean and variance updates for the message passing input step",
+        "Achieved competitive reconstruction quality compared to existing zero-shot diffusion-based methods on FFHQ256 dataset"
+      ]
+    },
+    {
+      "company": "Lab of Efficient Architectures for Digital-communication and Signal-processing (LEADS)",
+      "position": "Research Assistant: Variational Inference for High-Dimensional Signal Estimation",
+      "startDate": "2023-01",
+      "endDate": "2026-06",
+      "location": "Nanjing, China",
+      "summary": "Supervisors: Prof. Xiaosi Tan, Prof. Chuan Zhang. Development of variational Bayesian message passing receivers for uplink ISAC systems and EP-based distributed detectors.",
+      "highlights": [
+        "Developed a message passing framework based on mean-field approximation for joint parameter estimation and signal detection",
+        "Extended the framework to Bethe variational free energy and derived noise variance updating equations via stationary point analysis",
+        "Analyzed convergence performance and estimation accuracy through state evolution equations",
+        "Outperformed existing linear and interference cancellation-based baselines with comparable complexity",
+        "Developed a distributed approximate message passing algorithm distributing computational tasks between access points and CPU",
+        "Reformulated message passing rules to reduce computational demands while preserving detection accuracy",
+        "Achieved 85%-94% complexity reduction compared to existing non-linear EP-based distributed detectors"
+      ]
+    },
+    {
+      "company": "Lab of Efficient Architectures for Digital-communication and Signal-processing (LEADS)",
+      "position": "Research Assistant: Factor Graph-based Joint Optimization of Baseband Detection and Decoding",
+      "startDate": "2022-01",
+      "endDate": "2025-06",
+      "location": "Nanjing, China",
+      "summary": "Supervisors: Prof. Xiaosi Tan, Prof. Chuan Zhang. Research on efficient iterative detection and decoding receivers for polar-coded MIMO systems.",
+      "highlights": [
+        "Employed expectation propagation with approximation to eliminate matrix inversions during detection",
+        "Introduced a modified belief propagation flip decoder based on critical sets to resolve error floors",
+        "Optimized message passing mechanisms between detector and decoder to improve BER performance",
+        "Introduced a novel architecture based on joint factor graphs enabling mini-batch information exchange",
+        "Restructured the EP with successive updating algorithm in a layered manner",
+        "Designed a sorting and grouping strategy to optimize the symbol update process",
+        "Demonstrated superior performance across various channel conditions compared to existing methods"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Southeast University (SEU)",
+      "area": "Information Science and Technology",
+      "studyType": "Master of Engineering",
+      "startDate": "2024-09",
+      "endDate": "2027-06",
+      "gpa": "4.0/4.0 (Rank: 1/142, Average Score: 94.77/100)",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Southeast University (SEU)",
+      "area": "Information Science and Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2020-09",
+      "endDate": "2024-06",
+      "gpa": "3.98/4.0 (Rank: 3/245, Average Score: 92.49/100)",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Core Focus",
+      "keywords": ["Score-based Generative Models", "Bayesian Inference", "Variational Methods", "Inverse Problems"]
+    },
+    {
+      "name": "Methodologies",
+      "keywords": ["Diffusion Models", "Approximate Message Passing (AMP)", "Expectation Propagation (EP)", "Belief Propagation (BP)"]
+    },
+    {
+      "name": "Applications",
+      "keywords": ["Compressed Sensing", "High-Dimensional Signal Estimation", "Iterative Receivers", "Massive MIMO", "Cell-Free MIMO"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": ["Score-based Generative Models for Inverse Problems", "Bayesian Inference", "Variational Methods", "Diffusion Models", "Message Passing Algorithms"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Variational Bayesian Message Passing Receiver for Uplink ISAC Systems",
+      "publisher": "IEEE Transactions on Communications",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "First author. Proposed variational Bayesian message passing receivers for uplink integrated sensing and communication systems.",
+      "authors": ["Tiancan Xia", "Jian Zheng", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Jointly-Layered Iterative Detection and Decoding for Massive MIMO: An EP-SU Based Framework",
+      "publisher": "IEEE Wireless Communications Letters",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "First author. Proposed a jointly-layered iterative detection and decoding algorithm for coded MIMO systems based on joint factor graphs.",
+      "authors": ["Tiancan Xia", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO",
+      "publisher": "IEEE Wireless Communications Letters",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "First author. Proposed expectation propagation-based distributed detectors for cell-free massive MIMO systems with 85%-94% complexity reduction.",
+      "authors": ["Tiancan Xia", "Xiaosi Tan", "Wenyue Zhou", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO",
+      "publisher": "57th Asilomar Conference on Signals, Systems, and Computers",
+      "releaseDate": "2023-10-01",
+      "website": "",
+      "summary": "First author. Proposed an efficient iterative detection and decoding receiver using EP approximation and BP flip decoder for polar-coded MIMO.",
+      "authors": ["Tiancan Xia", "Xiaohua Xie", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
+    },
+    {
+      "name": "AttnMPNet: An attention-based message passing network for MIMO detection",
+      "publisher": "IEEE Wireless Communications Letters",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Co-author. Developed an attention-based message passing network for MIMO detection.",
+      "authors": ["Jian Zheng", "Yi Sun", "Tiancan Xia", "Wenyue Zhou", "Xiaosi Tan", "Yongming Huang", "Chuan Zhang"]
+    },
+    {
+      "name": "Turbo product code-aided spatiotemporal 2-D coded MIMO for URLLC",
+      "publisher": "IEEE Communications Magazine",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Co-author. Proposed turbo product code-aided spatiotemporal 2-D coded MIMO for ultra-reliable low-latency communications.",
+      "authors": ["Yu Tian", "Jian Zheng", "Zongyao Li", "Tiancan Xia", "Yifei Shen", "Wenyue Zhou", "Xiaosi Tan", "Jiamin Li", "Yongming Huang", "Chuan Zhang", "Xiaohu You"]
+    },
+    {
+      "name": "Low-complexity double EP approximation for parallel detection-decoding in MIMO systems",
+      "publisher": "IEEE Wireless Communications Letters",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Co-author. Proposed low-complexity double EP approximation for parallel detection-decoding in MIMO systems.",
+      "authors": ["Hourun Ji", "Xiaohua Xie", "Tiancan Xia", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
+    },
+    {
+      "name": "A soft iterative receiver with simplified EP detection for coded MIMO systems",
+      "publisher": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Co-author. Proposed a soft iterative receiver with simplified EP detection for coded MIMO systems.",
+      "authors": ["Xiaosi Tan", "Xiaohua Xie", "Houren Ji", "Tiancan Xia", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO",
+      "event": "57th Asilomar Conference on Signals, Systems, and Computers",
+      "date": "2023-10-01",
+      "location": "Pacific Grove, California, USA",
+      "description": "Poster Presentation"
     }
   ],
-  "teaching": [
+  "teaching": [],
+  "portfolio": [],
+  "volunteer": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "organization": "IEEE Transactions on Communications",
+      "position": "Peer Reviewer",
+      "startDate": "2024-01-01",
+      "endDate": "Present",
+      "summary": "Reviewed 2 manuscripts"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
+      "organization": "IEEE Open Journal of the Communications Society",
+      "position": "Peer Reviewer",
+      "startDate": "2024-01-01",
+      "endDate": "Present",
+      "summary": ""
+    },
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "organization": "IEEE International Conference on Communications (ICC)",
+      "position": "Peer Reviewer",
+      "startDate": "2024-01-01",
+      "endDate": "Present",
+      "summary": ""
+    },
+    {
+      "organization": "IEEE Signal Processing Society (SiPs)",
+      "position": "Peer Reviewer",
+      "startDate": "2024-01-01",
+      "endDate": "Present",
+      "summary": ""
     }
   ]
 }
