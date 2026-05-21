@@ -1,30 +1,27 @@
 ```
-# Jekyll/GitHub Pages specific ignores
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-.bundle/
-
 # Dependencies
-vendor/bundle/
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Build artifacts
+_dist/
+_site/
 
-# Environment
+# Environment variables
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Logs
+*.log
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
 
@@ -33,13 +30,17 @@ coverage/
 htmlcov/
 .coverage
 
-# Python specific (if applicable)
+# Python specific
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
+.Python
 *.egg-info/
 .eggs/
+dist/
+build/
+*.egg
 ```
