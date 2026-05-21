@@ -83,9 +83,13 @@ A comprehensive list of all pages, blog posts, and publications on this site. Fo
 <h2><i class="fa fa-file sitemap-icon"></i>Pages</h2>
 <ul class="sitemap-list">
 {% for post in site.pages %}
-  {% if post.title %}
+  {% if post.title and post.permalink != "/404.html" %}
   <li>
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    {% if post.permalink == "/cv/" %}
+      <a href="{{ base_path }}/files/cv.pdf">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    {% endif %}
     {% if post.date %}<span class="sitemap-meta">({{ post.date | date: "%Y-%m-%d" }})</span>{% endif %}
   </li>
   {% endif %}
@@ -113,7 +117,7 @@ A comprehensive list of all pages, blog posts, and publications on this site. Fo
 <ul class="sitemap-list">
 {% for post in site.publications %}
   <li>
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ base_path }}/files/{{ post.pdf_filename | default: 'paper' }}.pdf">{{ post.title }}</a>
     <span class="sitemap-meta">({{ post.venue }}, {{ post.date | date: "%Y" }})</span>
   </li>
 {% endfor %}

@@ -6,6 +6,7 @@ excerpt: ''
 date: 2026-01-01
 venue: 'IEEE Transactions on Communications'
 paperurl: ''
+pdf_filename: 'Variational_Bayesian_Message_Passing_Receiver_for_Uplink_ISAC_Systems.pdf'
 citation: 'Tiancan Xia, Jian Zheng, Xiaosi Tan, Yongming Huang, Xiaohu You and Chuan Zhang, "Variational Bayesian Message Passing Receiver for Uplink ISAC Systems," <i>IEEE Transactions on Communications</i>, 2026.'
 ---
 

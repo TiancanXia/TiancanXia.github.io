@@ -6,6 +6,7 @@ excerpt: ''
 date: 2026-01-01
 venue: 'IEEE Wireless Communications Letters'
 paperurl: ''
+pdf_filename: 'AttnMPNet_An_Attention-Based_Message_Passing_Network_for_MIMO_Detection.pdf'
 citation: 'Jian Zheng, Yi Sun, Tiancan Xia, Wenyue Zhou, Xiaosi Tan, Yongming Huang, and Chuan Zhang, "AttnMPNet: An attention-based message passing network for MIMO detection," <i>IEEE Wireless Communications Letters</i>, 2026.'
 ---
 
