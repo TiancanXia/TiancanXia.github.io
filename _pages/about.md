@@ -15,39 +15,55 @@ My research focuses on the intersection of Generative Models, Bayesian Inference
 
 <style>
 .education-entry {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 .education-school {
   color: #008080;
   font-weight: bold;
+  font-size: 1.05em;
 }
 .education-degree {
-  font-size: 0.9em;
-  margin-left: 1.2em;
+  font-size: 0.95em;
+  margin-left: 1.5em;
   display: block;
+  margin-top: 0.3em;
 }
 .education-honor {
-  font-size: 0.85em;
-  margin-left: 1.2em;
+  font-size: 0.9em;
+  margin-left: 1.5em;
   display: block;
+  margin-top: 0.2em;
+  color: #555;
 }
 .education-year {
   color: gray;
-  font-size: 0.85em;
+  font-size: 0.9em;
+  float: right;
+}
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 </style>
 
 <div class="education-entry">
-  <span style="color: #008080;">▶ </span><strong>Southeast University</strong><span style="float: right;">2024.9 -- 2027.6</span>
+  <div class="education-header">
+    <span class="education-school"><strong>Southeast University</strong></span>
+    <span class="education-year">2024.9 -- 2027.6</span>
+  </div>
   <span class="education-degree">M.Sc. in Information and Communication Engineering</span>
-  <span class="education-hour"><strong>China National Scholarship</strong><span class="education-year" style="float: right;">2025</span></span>
+  <span class="education-honor"><strong>China National Scholarship</strong><span class="education-year" style="float: none; margin-left: 0.5em;">2025</span></span>
 </div>
 
 <div class="education-entry">
-  <span style="color: #008080;">▶ </span><strong>Southeast University</strong><span style="float: right;">2020.9 -- 2024.6</span>
+  <div class="education-header">
+    <span class="education-school"><strong>Southeast University</strong></span>
+    <span class="education-year">2020.9 -- 2024.6</span>
+  </div>
   <span class="education-degree">B.Eng. in Information Engineering</span>
-  <span class="education-hour"><strong>Jiangsu Provincial Outstanding Undergraduate Thesis Award</strong><span class="education-year" style="float: right;">2024</span></span>
-  <span class="education-hour"><strong>China National Scholarship</strong><span class="education-year" style="float: right;">2023</span></span>
+  <span class="education-honor"><strong>Jiangsu Provincial Outstanding Undergraduate Thesis Award</strong><span class="education-year" style="float: none; margin-left: 0.5em;">2024</span></span>
+  <span class="education-honor"><strong>China National Scholarship</strong><span class="education-year" style="float: none; margin-left: 0.5em;">2023</span></span>
 </div>
 
 ## News

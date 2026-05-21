@@ -3,25 +3,26 @@
 node_modules/
 
 # Build artifacts
-_dist/
-_site/
+dist/
+build/
+*.min.js
+*.min.css
+*.map
 
-# Environment variables
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
 
@@ -30,17 +31,113 @@ coverage/
 htmlcov/
 .coverage
 
-# Python specific
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
-.Python
-*.egg-info/
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.tox/
 .eggs/
-dist/
+*.egg-info/
+.well-known/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.jruby_cache/
+.rbenv-version
+.ruby-version
+.ruby-gemset
+.gemfile.lock
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+target/
+.gradle/
 build/
-*.egg
+.settings/
+bin/
+gen/
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+vendor/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bower
+bower_components/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+Icon?
+Thumbs.db:encryptable
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.DS_Store
+.directory
+MT
+.Trash-*
+.nfs*
+.hg
+.svn
+.git
+CVS
 ```
