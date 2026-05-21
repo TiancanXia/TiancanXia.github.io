@@ -6,6 +6,7 @@ excerpt: ''
 date: 2026-01-01
 venue: 'IEEE Wireless Communications Letters'
 paperurl: ''
+pdf_filename: 'Jointly-Layered_Iterative_Detection_and_Decoding_for_Massive_MIMO_An_EP-SU_Based_Framework.pdf'
 citation: 'Tiancan Xia, Xiaosi Tan, Yongming Huang, Xiaohu You and Chuan Zhang, "Jointly-Layered Iterative Detection and Decoding for Massive MIMO: An EP-SU Based Framework," <i>IEEE Wireless Communications Letters</i>, 2026.'
 ---
 

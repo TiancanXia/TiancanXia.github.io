@@ -6,6 +6,7 @@ excerpt: ''
 date: 2025-01-01
 venue: 'IEEE Communications Magazine'
 paperurl: ''
+pdf_filename: 'Turbo_Product_Code-Aided_Spatiotemporal_2-D_Coded_MIMO_for_URLLC.pdf'
 citation: 'Yu Tian, Jian Zheng, Zongyao Li, Tiancan Xia, Yifei Shen, Wenyue Zhou, Xiaosi Tan, Jiamin Li, Yongming Huang, Chuan Zhang, and Xiaohu You, "Turbo product code-aided spatiotemporal 2-D coded MIMO for URLLC," <i>IEEE Communications Magazine</i>, 2025.'
 ---
 

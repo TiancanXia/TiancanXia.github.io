@@ -6,6 +6,7 @@ excerpt: ''
 date: 2026-01-01
 venue: 'IEEE Wireless Communications Letters'
 paperurl: ''
+pdf_filename: 'EP-based_Distributed_Message_Passing_Detection_for_Cell-Free_Massive_MIMO.pdf'
 citation: 'Tiancan Xia, Xiaosi Tan, Wenyue Zhou, Yongming Huang, Xiaohu You and Chuan Zhang, "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO," <i>IEEE Wireless Communications Letters</i>, 2026.'
 ---
 

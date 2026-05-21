@@ -6,6 +6,7 @@ excerpt: ''
 date: 2023-10-01
 venue: '57th Asilomar Conference on Signals, Systems, and Computers'
 paperurl: ''
+pdf_filename: 'An_Efficient_Iterative_Detection_and_Decoding_Receiver_for_Polar-Coded_Massive_MIMO.pdf'
 citation: 'Tiancan Xia, Xiaohua Xie, Xiaosi Tan, Yongming Huang, Xiaohu You and Chuan Zhang, "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO," <i>57th Asilomar Conference on Signals, Systems, and Computers</i>, 2023.'
 ---
 

@@ -6,6 +6,7 @@ excerpt: ''
 date: 2025-01-01
 venue: 'IEEE Transactions on Very Large Scale Integration (VLSI) Systems'
 paperurl: ''
+pdf_filename: 'A_Soft_Iterative_Receiver_with_Simplified_EP_Detection_for_Coded_MIMO_Systems.pdf'
 citation: 'Xiaosi Tan, Xiaohua Xie, Houren Ji, Tiancan Xia, Yongming Huang, Xiaohu You and Chuan Zhang, "A soft iterative receiver with simplified EP detection for coded MIMO systems," <i>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</i>, 2025.'
 ---
 
