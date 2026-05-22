@@ -115,14 +115,6 @@ A comprehensive list of all pages, blog posts, and publications on this site. Fo
 <div class="sitemap-section">
 <h2><i class="fa fa-graduation-cap sitemap-icon"></i>Publications</h2>
 <ul class="sitemap-list">
-{% for post in site.publications %}
-  {% if post.title contains "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO" or post.title contains "Low-complexity double EP approximation for parallel detection-decoding in MIMO systems" or post.title contains "A soft iterative receiver with simplified EP detection for coded MIMO systems" or post.title contains "Turbo product code-aided spatiotemporal 2-D coded MIMO for URLLC" or post.title contains "AttnMPNet: An attention-based message passing network for MIMO detection" or post.title contains "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO" or post.title contains "Jointly-Layered Iterative Detection and Decoding for Massive MIMO" or post.title contains "Variational Bayesian Message Passing Receiver for Uplink ISAC Systems" %}
-  <li>
-    <a href="{{ base_path }}/files/{{ post.pdf_filename | default: 'paper' }}.pdf">{{ post.title }}</a>
-    <span class="sitemap-meta">({{ post.venue }}, {{ post.date | date: "%Y" }})</span>
-  </li>
-  {% endif %}
-{% endfor %}
 {% if site.publications.size == 0 %}
   <li><em style="color: #999;">No publications yet.</em></li>
 {% endif %}
