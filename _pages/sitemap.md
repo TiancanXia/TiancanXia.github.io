@@ -112,15 +112,6 @@ A comprehensive list of all pages, blog posts, and publications on this site. Fo
 </ul>
 </div>
 
-<div class="sitemap-section">
-<h2><i class="fa fa-graduation-cap sitemap-icon"></i>Publications</h2>
-<ul class="sitemap-list">
-{% if site.publications.size == 0 %}
-  <li><em style="color: #999;">No publications yet.</em></li>
-{% endif %}
-</ul>
-</div>
-
 {% assign has_other = false %}
 {% for collection in site.collections %}
   {% if collection.label != "posts" and collection.label != "publications" and collection.docs.size > 0 %}
