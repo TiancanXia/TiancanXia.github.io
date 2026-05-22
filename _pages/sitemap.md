@@ -86,7 +86,7 @@ A comprehensive list of all pages, blog posts, and publications on this site. Fo
   {% if post.title and post.permalink != "/404.html" %}
   <li>
     {% if post.permalink == "/cv/" %}
-      <a href="{{ base_path }}/files/cv.pdf">{{ post.title }}</a>
+      <a href="{{ base_path }}/files/CV.pdf">{{ post.title }}</a>
     {% else %}
       <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
     {% endif %}
