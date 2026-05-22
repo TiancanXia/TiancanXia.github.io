@@ -1,3 +1,1 @@
-```html
-_pages/sitemap.md
-```
+Nothing should be ignored based on the provided file changes. The modified files (`_pages/publications.html` and `_pages/sitemap.md`) are source/config files and do not represent build artifacts, dependencies, or temporary files that should be ignored.
