@@ -1,13 +1,22 @@
 ---
 title: "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO"
-collection: publications
-permalink: /publication/2023-10-01-efficient-iterative-receiver-polar
-excerpt: ''
-date: 2023-10-01
-venue: '57th Asilomar Conference on Signals, Systems, and Computers'
-paperurl: ''
-pdf_filename: 'An_Efficient_Iterative_Detection_and_Decoding_Receiver_for_Polar-Coded_Massive_MIMO.pdf'
-citation: 'Tiancan Xia, Xiaohua Xie, Xiaosi Tan, Yongming Huang, Xiaohu You and Chuan Zhang, "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO," <i>57th Asilomar Conference on Signals, Systems, and Computers</i>, 2023.'
+collection: "publications"
+permalink: "/publication/2023-10-01-efficient-iterative-receiver-polar"
+excerpt: ""
+date: "2023-10-29"
+venue: "2023 57th Asilomar Conference on Signals, Systems, and Computers"
+paperurl: "/files/An_Efficient_Iterative_Detection_and_Decoding_Receiver_for_Polar-Coded_Massive_MIMO.pdf"
+pdf_filename: "An_Efficient_Iterative_Detection_and_Decoding_Receiver_for_Polar-Coded_Massive_MIMO.pdf"
+citation: "<strong>Tiancan Xia</strong>, Xiaohua Xie, Xiaosi Tan, Yongming Huang, Xiaohu You, and Chuan Zhang, \"An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO,\" <i>2023 57th Asilomar Conference on Signals, Systems, and Computers</i>, pp. 1505-1509, Oct. 2023."
+publication_year: 2023
+publication_month: 10
+category: "conferences"
+authors: ["Tiancan Xia", "Xiaohua Xie", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
+first_author: true
+volume: null
+issue: null
+pages: "1505-1509"
+doi: "10.1109/IEEECONF59524.2023.10477064"
 ---
 
 First author. Presented at the 57th Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, California, USA, October 2023 (Poster Presentation).

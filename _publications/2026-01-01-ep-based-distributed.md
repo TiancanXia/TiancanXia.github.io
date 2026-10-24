@@ -1,13 +1,22 @@
 ---
 title: "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO"
-collection: publications
-permalink: /publication/2026-01-01-ep-based-distributed-detection
-excerpt: ''
-date: 2026-01-01
-venue: 'IEEE Wireless Communications Letters'
-paperurl: ''
-pdf_filename: 'EP-based_Distributed_Message_Passing_Detection_for_Cell-Free_Massive_MIMO.pdf'
-citation: 'Tiancan Xia, Xiaosi Tan, Wenyue Zhou, Yongming Huang, Xiaohu You and Chuan Zhang, "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO," <i>IEEE Wireless Communications Letters</i>, 2026.'
+collection: "publications"
+permalink: "/publication/2026-01-01-ep-based-distributed-detection"
+excerpt: ""
+date: "2026-01-01"
+venue: "IEEE Wireless Communications Letters"
+paperurl: "/files/EP-based_Distributed_Message_Passing_Detection_for_Cell-Free_Massive_MIMO.pdf"
+pdf_filename: "EP-based_Distributed_Message_Passing_Detection_for_Cell-Free_Massive_MIMO.pdf"
+citation: "<strong>Tiancan Xia</strong>, Xiaosi Tan, Wenyue Zhou, Yongming Huang, Xiaohu You, and Chuan Zhang, \"EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO,\" <i>IEEE Wireless Communications Letters</i>, vol. 15, pp. 495-499, 2026."
+publication_year: 2026
+publication_month: null
+category: "manuscripts"
+authors: ["Tiancan Xia", "Xiaosi Tan", "Wenyue Zhou", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
+first_author: true
+volume: "15"
+issue: null
+pages: "495-499"
+doi: "10.1109/LWC.2025.3625118"
 ---
 
 First author. Proposed expectation propagation-based distributed detectors for cell-free massive MIMO systems.

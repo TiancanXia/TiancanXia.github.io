@@ -1,13 +1,22 @@
 ---
 title: "Variational Bayesian Message Passing Receiver for Uplink ISAC Systems"
-collection: publications
-permalink: /publication/2026-01-01-variational-bayesian-message-passing-receiver
-excerpt: ''
-date: 2026-01-01
-venue: 'IEEE Transactions on Communications'
-paperurl: ''
-pdf_filename: 'Variational_Bayesian_Message_Passing_Receiver_for_Uplink_ISAC_Systems.pdf'
-citation: 'Tiancan Xia, Jian Zheng, Xiaosi Tan, Yongming Huang, Xiaohu You, and Chuan Zhang, ``Variational Bayesian Message Passing Receiver for Uplink ISAC Systems," IEEE Transactions on Communications, vol. 74, pp. 8781-8796, May 2026.'
+collection: "publications"
+permalink: "/publication/2026-01-01-variational-bayesian-message-passing-receiver"
+excerpt: ""
+date: "2026-01-01"
+venue: "IEEE Transactions on Communications"
+paperurl: "/files/Variational_Bayesian_Message_Passing_Receiver_for_Uplink_ISAC_Systems.pdf"
+pdf_filename: "Variational_Bayesian_Message_Passing_Receiver_for_Uplink_ISAC_Systems.pdf"
+citation: "<strong>Tiancan Xia</strong>, Jian Zheng, Xiaosi Tan, Yongming Huang, Xiaohu You, and Chuan Zhang, \"Variational Bayesian Message Passing Receiver for Uplink ISAC Systems,\" <i>IEEE Transactions on Communications</i>, vol. 74, pp. 8781-8796, 2026."
+publication_year: 2026
+publication_month: null
+category: "manuscripts"
+authors: ["Tiancan Xia", "Jian Zheng", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
+first_author: true
+volume: "74"
+issue: null
+pages: "8781-8796"
+doi: "10.1109/TCOMM.2026.3657392"
 ---
 
 First author. Proposed variational Bayesian message passing receivers for uplink integrated sensing and communication (ISAC) systems.

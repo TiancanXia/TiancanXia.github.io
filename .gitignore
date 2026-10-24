@@ -1,4 +1,11 @@
-(publication date in the filename suggests it might be auto-generated, but since it's a markdown file in a publications folder, it's likely intentional content rather than an artifact)
-
-# No build artifacts, dependency directories, or temp files detected in changes
-# Source/config files only - no ignores needed
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/bundle/
+node_modules/
+Gemfile.lock
+*.log
+.DS_Store
+Thumbs.db
