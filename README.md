@@ -18,6 +18,8 @@ The homepage, publication index and paper detail pages share the publication col
 
 Use the final publisher record for authors, venue, volume, issue and pages. `publication_year` and optional `publication_month` reflect the available date precision; `date` supports sorting. `first_author` controls grouping.
 
+Keep the supplied portrait in its original colors and preserve the owner's factual content. Update the downloadable CV only when explicitly requested.
+
 ## Preview and deploy
 
 With Ruby and Bundler installed:
@@ -33,7 +35,7 @@ Open [localhost:4000](http://localhost:4000). Restart after editing `_config.yml
 bundle exec jekyll build
 ```
 
-Pushes to `master` build and deploy through `.github/workflows/jekyll.yml`. Shared styles and interaction code are in `assets/css/research.css` and `assets/js/research.js`. Publications remain readable without JavaScript; motion respects the visitor's reduced-motion preference.
+Pushes to `master` build and deploy through `.github/workflows/jekyll.yml`. Shared styles and publication filters are in `assets/css/research.css` and `assets/js/research.js`. Publications remain readable without JavaScript.
 
 ## Credits
 

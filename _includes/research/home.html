@@ -1,17 +1,26 @@
 <div class="wrap">
-<section class="hero" aria-labelledby="hero-title">
-<div class="hero-copy"><p class="eyebrow">Finding structure in uncertainty</p><h1 id="hero-title"><span>Tiancan</span><span>Xia</span></h1><p class="hero-statement">Generative models. Bayesian reasoning.<br><span>Structure in high dimensions.</span></p><div class="hero-academic"><img src="{{ '/images/profile.jpeg' | relative_url }}" width="48" height="58" alt="Portrait of Tiancan Xia"><p><b>M.Sc. student at Southeast University</b>Nanjing, China · Expected June 2027</p></div></div>
-<figure class="hero-art"  aria-labelledby="field-caption"><div class="art-top"><span>From observations to belief</span><span class="formula">p(x | y) ∝ p(y | x) p(x)</span></div><div class="art-stage"><canvas id="inference-field" role="img" aria-label="Illustrative three-dimensional posterior density with factor graph nodes and passing messages" hidden>A posterior density surface with a factor graph.</canvas><img class="field-fallback" src="{{ '/images/posterior-field.svg' | relative_url }}" width="640" height="440" alt="Illustrative posterior density surface and connected factor graph"><span class="art-axis">Latent space · x₁, x₂</span></div><div class="art-controls" hidden><label class="art-slider" for="observation">Observation shift<input id="observation" type="range" min="-1" max="1" value="0.15" step="0.01" aria-label="Shift the illustrative observation"></label><button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false">Pause motion</button></div><figcaption class="art-caption" id="field-caption">An illustrative posterior field. Change the observation to reshape the belief; messages move between variables and factors.</figcaption></figure>
-</section>
-<div class="hero-bottom"><span class="location">Southeast University, Nanjing</span><div class="links"><a href="https://scholar.google.com/citations?user=u1tYP8wAAAAJ">Google Scholar</a><a href="https://github.com/TiancanXia">GitHub</a><a href="https://ieeexplore.ieee.org/author/162466544312162">IEEE</a></div></div>
-<section class="section" id="research" aria-labelledby="research-title"><p class="section-title">Research perspective</p><div class="research-intro"><h2 id="research-title">Inference,<br>with structure.</h2><p>I study <strong>generative models, Bayesian inference and variational methods</strong> for high-dimensional inverse problems, with current work in message passing and wireless receivers.</p></div><div class="research-lines">
-<article class="research-line"><svg viewBox="0 0 80 55" fill="none" aria-hidden="true"><path d="M2 46H78M4 46C19 46 21 9 40 9S61 46 76 46M10 46C24 46 27 21 40 21S56 46 70 46" stroke="currentColor" stroke-width="1"/><path d="M40 4V50" stroke="currentColor" stroke-dasharray="2 5" opacity=".6"/></svg><h3>Bayesian inference</h3><p>Learning from observations while representing uncertainty in complex, high-dimensional systems.</p></article>
-<article class="research-line"><svg viewBox="0 0 80 55" fill="none" aria-hidden="true"><path d="M12 11L40 27 68 11M12 44L40 27 68 44" stroke="currentColor"/><circle cx="12" cy="11" r="5" fill="var(--ink)" stroke="currentColor"/><circle cx="68" cy="11" r="5" fill="var(--ink)" stroke="currentColor"/><circle cx="12" cy="44" r="5" fill="var(--ink)" stroke="currentColor"/><circle cx="68" cy="44" r="5" fill="var(--ink)" stroke="currentColor"/><path d="M35 22H45V32H35Z" fill="currentColor"/></svg><h3>Variational methods</h3><p>Turning difficult posterior estimation into tractable approximations and message passing algorithms.</p></article>
-<article class="research-line"><svg viewBox="0 0 80 55" fill="none" aria-hidden="true"><path d="M6 45Q20 7 38 28T74 10M6 35Q23 48 39 20T74 30M6 17Q27 1 40 36T74 45" stroke="currentColor"/><circle cx="38" cy="28" r="3" fill="currentColor"/></svg><h3>Generative models</h3><p>Exploring learned structure and priors for recovering hidden signals from incomplete observations.</p></article>
-</div></section>
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">Tiancan Xia</h1>
+    <img class="hero-portrait" src="{{ '/images/profile.jpeg' | relative_url }}" width="803" height="803" alt="Portrait of Tiancan Xia">
+    <p class="hero-bio">I am a M.Sc. student at <a href="https://www.seu.edu.cn/">Southeast University (SEU)</a> under the supervision of Prof. Xiaosi Tan and Prof. Chuan Zhang, expected to graduate in June 2027.</p>
+  </section>
+  <div class="hero-bottom">
+    <span class="location">Southeast University, Nanjing</span>
+    <div class="links"><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="{{ site.author.github | prepend: 'https://github.com/' }}">GitHub</a><a href="https://ieeexplore.ieee.org/author/162466544312162">IEEE</a></div>
+  </div>
+  <section class="section" id="research" aria-labelledby="research-title">
+    <div class="research-intro">
+      <h2 id="research-title">Research interests</h2>
+      <p>My research focuses on the intersection of Generative Models, Bayesian Inference, and Variational Methods for solving high-dimensional inverse problems.</p>
+    </div>
+  </section>
 </div>
 {% include research/papers.html %}
 <div class="wrap">
-{% include research/background.html %}
-{% include research/contact.html %}
+  {% include research/background.html %}
+  <section class="section news" aria-labelledby="news-title">
+    <h2 id="news-title">News</h2>
+    <p><time datetime="2023-10">2023.10</time><span>Presented paper at the 57th Asilomar Conference, Pacific Grove, CA</span></p>
+  </section>
+  {% include research/contact.html %}
 </div>
