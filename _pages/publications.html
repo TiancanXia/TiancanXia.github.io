@@ -1,32 +1,9 @@
 ---
-layout: archive
+layout: research
 title: "Publications"
+description: "Publications by Tiancan Xia, with original abstracts, publisher information and paper PDFs."
+full_width: true
 permalink: /publications/
-author_profile: true
 ---
 
-<style>
-.pub-entry { margin-bottom: 1.2em; line-height: 1.6; }
-.pub-links { display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.9em; margin-top: 0.3em; }
-</style>
-
-{% assign publications = site.publications | sort: 'date' | reverse %}
-{% for author_group in (1..2) %}
-  {% if author_group == 1 %}<h2>First-author publications</h2>{% else %}<h2>Co-authored publications</h2>{% endif %}
-  {% for post in publications %}
-    {% if author_group == 1 and post.first_author != true %}{% continue %}{% endif %}
-    {% if author_group == 2 and post.first_author == true %}{% continue %}{% endif %}
-    <div class="pub-entry">
-      {{ post.citation }}
-      <span class="pub-links">
-        <a href="https://doi.org/{{ post.doi }}">DOI</a>
-        <a href="{{ post.paperurl | relative_url }}">PDF</a>
-        <a href="{{ post.url | relative_url }}">Details</a>
-      </span>
-    </div>
-  {% endfor %}
-{% endfor %}
-
-{% if site.author.googlescholar %}
-<p>You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
-{% endif %}
+{% include research/papers.html %}

@@ -4,7 +4,7 @@
     "email": "tiancanxia@gmail.com",
     "phone": "",
     "website": "https://tiancanxia.github.io",
-    "summary": "M.Eng. student at Southeast University (SEU), Nanjing, China. Research focuses on Score-based Generative Models for Inverse Problems, Bayesian Inference, and Variational Methods. Expected graduation: June 2027.",
+    "summary": "M.Sc. student at Southeast University (SEU), Nanjing, China. Research focuses on Score-based Generative Models for Inverse Problems, Bayesian Inference, and Variational Methods. Expected graduation: June 2027.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -105,91 +105,47 @@
   "skills": [
     {
       "name": "Core Focus",
-      "keywords": ["Score-based Generative Models", "Bayesian Inference", "Variational Methods", "Inverse Problems"]
+      "keywords": [
+        "Score-based Generative Models",
+        "Bayesian Inference",
+        "Variational Methods",
+        "Inverse Problems"
+      ]
     },
     {
       "name": "Methodologies",
-      "keywords": ["Diffusion Models", "Approximate Message Passing (AMP)", "Expectation Propagation (EP)", "Belief Propagation (BP)"]
+      "keywords": [
+        "Diffusion Models",
+        "Approximate Message Passing (AMP)",
+        "Expectation Propagation (EP)",
+        "Belief Propagation (BP)"
+      ]
     },
     {
       "name": "Applications",
-      "keywords": ["Compressed Sensing", "High-Dimensional Signal Estimation", "Iterative Receivers", "Massive MIMO", "Cell-Free MIMO"]
+      "keywords": [
+        "Compressed Sensing",
+        "High-Dimensional Signal Estimation",
+        "Iterative Receivers",
+        "Massive MIMO",
+        "Cell-Free MIMO"
+      ]
     }
   ],
   "languages": [],
   "interests": [
     {
       "name": "Research Interests",
-      "keywords": ["Score-based Generative Models for Inverse Problems", "Bayesian Inference", "Variational Methods", "Diffusion Models", "Message Passing Algorithms"]
+      "keywords": [
+        "Score-based Generative Models for Inverse Problems",
+        "Bayesian Inference",
+        "Variational Methods",
+        "Diffusion Models",
+        "Message Passing Algorithms"
+      ]
     }
   ],
   "references": [],
-  "publications": [
-    {
-      "name": "Variational Bayesian Message Passing Receiver for Uplink ISAC Systems",
-      "publisher": "IEEE Transactions on Communications",
-      "releaseDate": "2026-01-01",
-      "website": "",
-      "summary": "First author. Proposed variational Bayesian message passing receivers for uplink integrated sensing and communication systems.",
-      "authors": ["Tiancan Xia", "Jian Zheng", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
-    },
-    {
-      "name": "Jointly-Layered Iterative Detection and Decoding for Massive MIMO: An EP-SU Based Framework",
-      "publisher": "IEEE Wireless Communications Letters",
-      "releaseDate": "2026-01-01",
-      "website": "",
-      "summary": "First author. Proposed a jointly-layered iterative detection and decoding algorithm for coded MIMO systems based on joint factor graphs.",
-      "authors": ["Tiancan Xia", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
-    },
-    {
-      "name": "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO",
-      "publisher": "IEEE Wireless Communications Letters",
-      "releaseDate": "2026-01-01",
-      "website": "",
-      "summary": "First author. Proposed expectation propagation-based distributed detectors for cell-free massive MIMO systems with 85%-94% complexity reduction.",
-      "authors": ["Tiancan Xia", "Xiaosi Tan", "Wenyue Zhou", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
-    },
-    {
-      "name": "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO",
-      "publisher": "57th Asilomar Conference on Signals, Systems, and Computers",
-      "releaseDate": "2023-10-01",
-      "website": "",
-      "summary": "First author. Proposed an efficient iterative detection and decoding receiver using EP approximation and BP flip decoder for polar-coded MIMO.",
-      "authors": ["Tiancan Xia", "Xiaohua Xie", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
-    },
-    {
-      "name": "AttnMPNet: An attention-based message passing network for MIMO detection",
-      "publisher": "IEEE Wireless Communications Letters",
-      "releaseDate": "2026-01-01",
-      "website": "",
-      "summary": "Co-author. Developed an attention-based message passing network for MIMO detection.",
-      "authors": ["Jian Zheng", "Yi Sun", "Tiancan Xia", "Wenyue Zhou", "Xiaosi Tan", "Yongming Huang", "Chuan Zhang"]
-    },
-    {
-      "name": "Turbo product code-aided spatiotemporal 2-D coded MIMO for URLLC",
-      "publisher": "IEEE Communications Magazine",
-      "releaseDate": "2025-01-01",
-      "website": "",
-      "summary": "Co-author. Proposed turbo product code-aided spatiotemporal 2-D coded MIMO for ultra-reliable low-latency communications.",
-      "authors": ["Yu Tian", "Jian Zheng", "Zongyao Li", "Tiancan Xia", "Yifei Shen", "Wenyue Zhou", "Xiaosi Tan", "Jiamin Li", "Yongming Huang", "Chuan Zhang", "Xiaohu You"]
-    },
-    {
-      "name": "Low-complexity double EP approximation for parallel detection-decoding in MIMO systems",
-      "publisher": "IEEE Wireless Communications Letters",
-      "releaseDate": "2025-01-01",
-      "website": "",
-      "summary": "Co-author. Proposed low-complexity double EP approximation for parallel detection-decoding in MIMO systems.",
-      "authors": ["Hourun Ji", "Xiaohua Xie", "Tiancan Xia", "Xiaosi Tan", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
-    },
-    {
-      "name": "A soft iterative receiver with simplified EP detection for coded MIMO systems",
-      "publisher": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
-      "releaseDate": "2025-01-01",
-      "website": "",
-      "summary": "Co-author. Proposed a soft iterative receiver with simplified EP detection for coded MIMO systems.",
-      "authors": ["Xiaosi Tan", "Xiaohua Xie", "Houren Ji", "Tiancan Xia", "Yongming Huang", "Xiaohu You", "Chuan Zhang"]
-    }
-  ],
   "presentations": [
     {
       "name": "An Efficient Iterative Detection and Decoding Receiver for Polar-Coded Massive MIMO",

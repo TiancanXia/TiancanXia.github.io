@@ -1,0 +1,41 @@
+---
+layout: research
+---
+<article class="publication-detail">
+  <header class="paper-header">
+    <a class="back-link" href="{{ '/publications/' | relative_url }}">All publications</a>
+    <p class="paper-kind">{{ page.publication_year }}{% if page.first_author %}<span>First author</span>{% endif %}</p>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="detail-authors">{% include research/authors.html paper=page %}</p>
+    <p class="detail-venue">{% include research/venue.html paper=page %}</p>
+    <div class="detail-actions">
+      <a class="button-primary" href="{{ page.paperurl | relative_url }}">Read PDF</a>
+      <a class="button-secondary" href="https://doi.org/{{ page.doi }}">Publisher / DOI</a>
+    </div>
+  </header>
+  <div class="paper-reading">
+    <section class="abstract-section" id="abstract" aria-labelledby="abstract-title">
+      <h2 id="abstract-title">Abstract</h2>
+      <p class="original-abstract">{{ page.abstract | escape }}</p>
+      <p class="source-note"><a href="{{ page.paperurl | relative_url }}#page={{ page.abstract_source_page }}">Original abstract in the paper PDF</a></p>
+    </section>
+    <section class="citation-section" aria-labelledby="citation-title">
+      <h2 id="citation-title">Citation</h2>
+      <p class="citation-text">{{ page.citation }}</p>
+      <a class="doi-link" href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
+    </section>
+  </div>
+</article>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ page.title | jsonify }},
+  "abstract": {{ page.abstract | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "identifier": {{ page.doi | jsonify }},
+  "datePublished": {{ page.publication_year | append: '' | jsonify }},
+  "author": [{% for author in page.authors %}{"@type":"Person","name":{{ author | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}],
+  "isPartOf": {"@type":"{% if page.category == 'conferences' %}CreativeWork{% else %}Periodical{% endif %}","name":{{ page.venue | jsonify }}}
+}
+</script>

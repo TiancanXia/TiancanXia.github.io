@@ -2,7 +2,6 @@
 title: "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO"
 collection: "publications"
 permalink: "/publication/2026-01-01-ep-based-distributed-detection"
-excerpt: ""
 date: "2026-01-01"
 venue: "IEEE Wireless Communications Letters"
 paperurl: "/files/EP-based_Distributed_Message_Passing_Detection_for_Cell-Free_Massive_MIMO.pdf"
@@ -17,10 +16,8 @@ volume: "15"
 issue: null
 pages: "495-499"
 doi: "10.1109/LWC.2025.3625118"
+layout: "research-publication"
+abstract: "Expectation propagation (EP) has been applied to signal detection in Cell-Free massive MIMO (CF-mMIMO) systems to achieve high performance. However, its computational complexity becomes prohibitive as the number of users and antennas increases. In this letter, we apply the EP-based approximate message passing framework to CF-mMIMO and propose a distributed detector, called EP-dAMP, which efficiently distributes computational tasks between the access points (APs) and the central processing unit (CPU) by offloading part of the computations from the APs to the CPU. Building on this foundation, we further propose a low-complexity variant, LC-dAMP, designed to reduce the computational demands on APs and achieve lower fronthaul overhead. Simulation results demonstrate that both algorithms can achieve a complexity reduction of 85%-94% compared to existing non-linear detectors for CF-mMIMO while achieving better bit error rate (BER) performance."
+abstract_source_page: 1
+description: "EP-based Distributed Message Passing Detection for Cell-Free Massive MIMO - IEEE Wireless Communications Letters, 2026."
 ---
-
-First author. Proposed expectation propagation-based distributed detectors for cell-free massive MIMO systems.
-
-**Authors:** Tiancan Xia, Xiaosi Tan, Wenyue Zhou, Yongming Huang, Xiaohu You, Chuan Zhang
-
-**Abstract:** This paper develops a distributed approximate message passing algorithm that strategically distributes computational tasks between access points and the central processing unit. The message passing rules are reformulated to reduce computational demands on access points while preserving detection accuracy. The proposed method achieves 85%-94% complexity reduction compared to existing non-linear EP-based distributed detectors.

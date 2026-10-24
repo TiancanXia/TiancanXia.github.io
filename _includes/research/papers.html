@@ -1,0 +1,50 @@
+<section class="publications" id="publications" aria-labelledby="publications-title" data-publications>
+  <div class="wrap">
+    <div class="pub-heading">
+      <div>
+        <p class="section-title">Publications</p>
+        {% if page.home %}<h2 id="publications-title">Ideas into algorithms.</h2>{% else %}<h1 id="publications-title">Publications.</h1>{% endif %}
+      </div>
+      <p>Research in Bayesian inference, message passing and wireless communication.</p>
+    </div>
+    <div class="filter-bar" hidden>
+      <div class="filters" role="group" aria-label="Filter publications">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All work</button>
+        <button class="filter" type="button" data-filter="first" aria-pressed="false">First author</button>
+        <button class="filter" type="button" data-filter="journal" aria-pressed="false">Journals</button>
+        <button class="filter" type="button" data-filter="conference" aria-pressed="false">Conference</button>
+      </div>
+      <span class="filter-count" role="status" aria-live="polite">{{ site.publications.size }} publications</span>
+    </div>
+    <div class="paper-list">
+      {% assign publications = site.publications | sort: 'date' | reverse %}
+      {% for author_group in (1..2) %}
+        {% for post in publications %}
+          {% if author_group == 1 and post.first_author != true %}{% continue %}{% endif %}
+          {% if author_group == 2 and post.first_author == true %}{% continue %}{% endif %}
+          <article class="paper" data-first="{{ post.first_author }}" data-type="{% if post.category == 'conferences' %}conference{% else %}journal{% endif %}">
+            <div class="paper-side">
+              <span class="paper-year">{{ post.publication_year }}</span>
+              {% if post.first_author %}<span class="first-author">First author</span>{% endif %}
+            </div>
+            <div class="paper-main">
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+              <p class="authors">{% include research/authors.html paper=post %}</p>
+              <p class="venue">{% include research/venue.html paper=post %}</p>
+              <a class="abstract-link" href="{{ post.url | relative_url }}#abstract">Read abstract</a>
+            </div>
+            <div class="paper-links">
+              <a href="https://doi.org/{{ post.doi }}" aria-label="DOI for {{ post.title | escape }}">DOI</a>
+              <a href="{{ post.paperurl | relative_url }}" aria-label="PDF of {{ post.title | escape }}">PDF</a>
+            </div>
+          </article>
+        {% endfor %}
+      {% endfor %}
+    </div>
+    <p class="empty-state" hidden>No publications in this category.</p>
+    <div class="pub-footer">
+      <span>First-author papers appear first.</span>
+      <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>
+    </div>
+  </div>
+</section>

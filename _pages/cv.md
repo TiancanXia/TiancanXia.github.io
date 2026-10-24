@@ -1,34 +1,22 @@
 ---
-layout: archive
-title: "CV"
+layout: research
+title: "Curriculum vitae"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
 
-[Download CV (PDF)]({{ '/files/CV.pdf' | relative_url }})
-
-## Education
-
-**Southeast University** — M.Sc. in Information and Communication Engineering
-
-September 2024 – June 2027 (expected). Supervisors: Prof. Xiaosi Tan and Prof. Chuan Zhang.
-
-**Southeast University** — B.Eng. in Information Engineering
-
-September 2020 – June 2024.
-
-## Research interests
-
-Generative models, Bayesian inference and variational methods for high-dimensional inverse problems.
-
-## Awards
-
-- China National Scholarship, 2025
-- Jiangsu Provincial Outstanding Undergraduate Thesis Award, 2024
-- China National Scholarship, 2023
-
-## Publications
-
-See the [publication list]({{ '/publications/' | relative_url }}) for citations, DOI links and PDFs.
+<section class="cv-page">
+  <header class="document-header">
+    <p class="section-title">Curriculum vitae</p>
+    <h1>Tiancan Xia.</h1>
+    <p class="document-intro">M.Sc. student at Southeast University. Generative models, Bayesian inference and variational methods for high-dimensional inverse problems.</p>
+    <a class="button-primary" href="{{ '/files/CV.pdf' | relative_url }}">Download CV (PDF)</a>
+  </header>
+  {% include research/background.html %}
+  <section class="cv-publications">
+    <h2>Publications</h2>
+    <p>The publication list includes original abstracts, verified citations, DOI links and paper PDFs.</p>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">View publications</a>
+  </section>
+</section>

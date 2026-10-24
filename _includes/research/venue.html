@@ -1,0 +1,2 @@
+{{ include.paper.venue | escape }}<br>
+{% if include.paper.volume %}vol. {{ include.paper.volume }}, {% endif %}{% if include.paper.issue %}no. {{ include.paper.issue }}, {% endif %}pp. {{ include.paper.pages | replace: '-', '–' }}, {% if include.paper.publication_month %}{{ include.paper.date | date: '%B %Y' }}{% else %}{{ include.paper.publication_year }}{% endif %}

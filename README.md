@@ -1,41 +1,40 @@
 # Tiancan Xia
 
-Personal academic website: [tiancanxia.github.io](https://tiancanxia.github.io).
+[Academic homepage](https://tiancanxia.github.io) · Jekyll · GitHub Pages
 
-Built with Jekyll and deployed to GitHub Pages from `master`.
+## Content
 
-## Update content
-
-| Content | Location |
+| Content | Source |
 | --- | --- |
-| Biography, education and news | `_pages/about.md` |
-| Publications | `_publications/*.md` |
-| CV page | `_pages/cv.md` |
-| Downloadable papers and CV | `files/` |
+| Introduction and research | `_includes/research/home.html` |
+| Education and awards | `_includes/research/background.html` |
+| Contact | `_includes/research/contact.html` |
+| Papers, citations and original abstracts | `_publications/*.md` |
+| CV page and downloadable CV | `_pages/cv.md`, `files/CV.pdf` |
+| Profile links | `_config.yml` |
 | Portrait | `images/profile.jpeg` |
-| Profile links and site settings | `_config.yml` |
 
-The publication index reads directly from `_publications/`. Edit each paper's metadata and citation there; do not maintain a second list in `_pages/publications.html`. Keep existing permalinks stable and match PDF filenames exactly, including capitalization.
+The homepage, publication index and paper detail pages share the publication collection. Edit paper metadata there; do not keep a second bibliography. Each `abstract` is the original text from the linked paper PDF, with PDF line breaks and ligatures normalized. Keep existing permalinks and match PDF filename capitalization exactly.
 
-Use the final publisher record for titles, authors, volume, issue and pages. If the record specifies only a year, omit an unverified publication month. `date` supports chronological sorting; `publication_year` and `publication_month` record the available publication-date precision.
+Use the final publisher record for authors, venue, volume, issue and pages. `publication_year` and optional `publication_month` reflect the available date precision; `date` supports sorting. `first_author` controls grouping.
 
-## Local preview
+## Preview and deploy
 
-Install Ruby and Bundler, then run:
+With Ruby and Bundler installed:
 
 ```sh
 bundle install
 bundle exec jekyll serve
 ```
 
-Open [localhost:4000](http://localhost:4000). Restart the server after editing `_config.yml`.
+Open [localhost:4000](http://localhost:4000). Restart after editing `_config.yml`.
 
 ```sh
 bundle exec jekyll build
 ```
 
-Pushes to `master` run the Pages workflow in `.github/workflows/jekyll.yml`.
+Pushes to `master` build and deploy through `.github/workflows/jekyll.yml`. Shared styles and interaction code are in `assets/css/research.css` and `assets/js/research.js`. Publications remain readable without JavaScript; motion respects the visitor's reduced-motion preference.
 
 ## Credits
 
-Based on [Academic Pages](https://github.com/academicpages/academicpages.github.io) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). Theme code is covered by the [MIT license](LICENSE); papers retain their respective copyrights.
+Originally based on [Academic Pages](https://github.com/academicpages/academicpages.github.io) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). Theme code retains the [MIT license](LICENSE); papers retain their respective copyrights.

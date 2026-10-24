@@ -1,0 +1,15 @@
+<div class="wrap">
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Tiancan Xia, home">
+      <svg viewBox="0 0 30 30" aria-hidden="true" fill="none"><path d="M5 8L15 3 25 8 25 22 15 27 5 22Z" stroke="currentColor"/><path d="M5 8L25 22M25 8L5 22M15 3V27" stroke="currentColor"/><circle cx="15" cy="15" r="3" fill="currentColor"/></svg>
+      <span>{{ site.author.name }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a data-nav="research" href="{{ '/' | relative_url }}#research">Research</a>
+      <a data-nav="publications" href="{% if page.home %}#publications{% else %}{{ '/publications/' | relative_url }}{% endif %}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+      <a data-nav="background" href="{{ '/' | relative_url }}#background">Background</a>
+      <a data-nav="contact" href="{{ '/' | relative_url }}#contact">Contact</a>
+      <a class="cv" href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>Curriculum vitae</a>
+    </nav>
+  </header>
+</div>
