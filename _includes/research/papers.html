@@ -12,7 +12,6 @@
         <button class="filter" type="button" data-filter="journal" aria-pressed="false">Journals</button>
         <button class="filter" type="button" data-filter="conference" aria-pressed="false">Conference</button>
       </div>
-      <span class="filter-count" role="status" aria-live="polite">{{ site.publications.size }} publications</span>
     </div>
     <div class="paper-list">
       {% assign publications = site.publications | sort: 'date' | reverse %}
