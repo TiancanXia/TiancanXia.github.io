@@ -6,7 +6,12 @@
   </section>
   <div class="hero-bottom">
     <span class="location">Southeast University, Nanjing</span>
-    <div class="links"><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="{{ site.author.github | prepend: 'https://github.com/' }}">GitHub</a><a href="https://ieeexplore.ieee.org/author/162466544312162">IEEE</a></div>
+    <div class="links">
+      <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
+      <a href="{{ site.author.github | prepend: 'https://github.com/' }}">GitHub</a>
+      <a href="https://ieeexplore.ieee.org/author/162466544312162">IEEE</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}/">LinkedIn</a>
+    </div>
   </div>
   <section class="section" id="research" aria-labelledby="research-title">
     <div class="research-intro">
